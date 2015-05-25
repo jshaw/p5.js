@@ -13,7 +13,7 @@ function setup() {
   // Here we call methods of each element to set the position and id.
   // Use view-source to look at the HTML generated from this code when you load the sketch in your browser.
   img.position(190, 50);
-  img.size(200, AUTO);
+  img.size(200, 200);
   // Attach listeners for mouse events related to img.
   img.mousePressed(uniHide);
 
@@ -24,7 +24,6 @@ function setup() {
 function draw() {
 
   // Tell program to draw into canvas since img was last created element.
-  context(canvas);
   noStroke();
   background(220, 180, 200);
   fill(180, 200, 40);
